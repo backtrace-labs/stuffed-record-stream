@@ -1,0 +1,83 @@
+// modest.css (https://github.com/markdowncss/modest/blob/master/index.css)
+// Copyright (c) 2014-2015 John Otander, MIT licensed.
+//
+// Additional modifications to improve integration with our doc generator.
+
+@import "furtive-print";
+@import "furtive-code";
+@import "furtive-links";
+@import "furtive-typescale";
+@import "furtive-responsive-utils";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
+
+html {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+nav {
+  height: 100%;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 20px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 20px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-common {
+  color: #888
+}
+
+
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 48rem;
+  line-height: 1.45;
+  padding: .25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arimo, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  border-bottom: 2px solid #fafafa;
+  margin-bottom: 1.15rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+blockquote {
+  border-left: 8px solid #fafafa;
+  padding: 1rem;
+}
+
+pre,
+code {
+  background-color: #fafafa;
+}

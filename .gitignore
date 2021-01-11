@@ -1,0 +1,4 @@
+librecord_stream.a
+src/*.o
+*~
+generated_html
